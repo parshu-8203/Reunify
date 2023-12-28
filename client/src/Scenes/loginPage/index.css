@@ -1,0 +1,78 @@
+/* AuthForm.css */
+.container {
+    color:white;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 100vh; */
+   
+  }
+  
+  .form-box {
+    width: 40%;
+    padding: 20px;
+    padding-left: 200px;
+   
+  }
+  
+  .form-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .form-box label {
+    margin-bottom: 8px;
+    
+  }
+  .form-box .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-box .icon {
+    width: 40px;
+    height: 40px;
+    background-color : white;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .form-box h2 {
+    margin: 0;
+  }
+
+  
+  .form-box input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none; 
+    border-radius: 5px;
+    margin-bottom: 16px;
+    width: 50%;
+  }
+  .form-box button { 
+    background-color: #502779;
+    color : white;
+    border: none;
+    width: 50%;
+    border-radius: 5px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    align-self: normal;
+  }
+  .image-box {
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  .image-box img {
+    
+    height: auto;
+    border-radius: 8px;
+    /* display: block; */
+    margin: 0 auto; 
+  }
+  

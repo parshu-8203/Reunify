@@ -1,0 +1,54 @@
+/* HowItWorks.css */
+
+.how-it-works-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.steps-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ensure equal spacing between cards */
+}
+
+.step {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: calc(50% - 20px); /* 50% width with margin on each side */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  display: flex;
+  align-items: center;
+}
+
+.step h3 {
+  
+  color : white;
+}
+
+.step p {
+  color: white;
+}
+
+.step-number {
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: 20px;
+  color: white;
+}
+
+/* Alternate background color for even-numbered steps */
+.step.even .step-number {
+  color: black;
+}
+.step.even {
+  background-color: #f0f0f0;
+}
+.step.even p {
+  color : black;
+}
+.step.even h3 {
+  color : black;
+}
